@@ -1,0 +1,16 @@
+export const cannonSectors = [
+    { id: 1, color: 0x87CEEB, text: 400, type: "basicRewards" },
+    { id: 2, color: 0x87CEEB, text: 50, type: "basicRewards" },
+    { id: 3, color: 0xfab669, text: "Free Spins", type: "basicRewards" },
+    { id: 4, color: 0x87CEEB, text: 20, type: "basicRewards" },
+    { id: 5, color: 0xFF6347, text: 500, type: "adviceRewards" },
+    { id: 6, color: 0xffffff, text: "Lose Turn", type: "basicRewards" },
+    { id: 7, color: 0x87CEEB, text: 300, type: "basicRewards" },
+    { id: 8, color: 0xFFD700, text: 100, type: "T1" },
+    { id: 9, color: 0x87CEEB, text: 10, type: "basicRewards" },
+    { id: 10, color: 0xFF6347, text: 1000, type: "adviceRewards" },
+    { id: 11, color: 0xC0C0C0, text: 200, type: "T2" },
+    { id: 12, color: 0xFF6347, text: 700, type: "adviceRewards" },
+    { id: 13, color: 0x8A2BE2, text: "Jackpot", type: "rareRewards" },
+    { id: 14, color: 0x87CEEB, text: 50, type: "basicRewards" },
+];

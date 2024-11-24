@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wheel of fortune</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Black&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        width: 100vw;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id></div>
+    <button id="spin-button">Старт</button>
+    <script type="module" src="/src/main.js"></script>
+    <span id="amount"></span>
+    <span id="update-amount"></span>
+    <span id="free-spins"></span>
+    <button id="deposit-button">deposit $ 1000</button>
+
+    <dialog id="dialog">
+      <div id="dialog-content"></div>
+    </dialog>
+
+    <div id="history-wrapper">
+      <span> Wheel of Fortune history </span>
+      <div id="history-panel"></div>
+    </div>
+  </body>
+</html>
